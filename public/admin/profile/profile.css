@@ -1,0 +1,132 @@
+.container{
+    width: 90%;
+    margin: 0 autto;
+}
+.row{}
+.main_profile{
+   
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    text-align: justify;
+    box-shadow: 0 0 5px 4px #ebe5e5;
+    padding: 40px 30px;
+}
+.pro_img{}
+.pro_img > img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 2px solid #b32222;
+    box-shadow: 0 0 2px 2px #000;
+}
+.pro_name{}
+.pro_name > h5{
+    font-size: 40px;
+    margin: 25px 0;
+    text-align: center;
+}
+.pro_name > p{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+.pro_address{}
+.pro_address > h6{
+    font-size: 17px;
+    margin-bottom: 5px;
+    display: inline-block;
+    background: #fffcff;
+    color: #7e7b7b;
+    padding: 15px 20px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 0 2px;
+    border-radius: 6px;
+}
+.pro_desc{
+    width: 100%;
+}
+.pro_desc > h4{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: -5px;
+    color: #5c5b5b;
+    border-radius: 6px;
+}
+
+.pro_desc > p{
+    font-size: 14px;
+    margin: 14px 10px 14px 0;
+    box-shadow: 0 0 2px;
+    padding: 20px;
+    word-spacing: 0.7px;
+    border-radius: 6px;
+}
+.pro_social{
+    margin: 15px 0 0 0;
+}
+.pro_social > a{
+    font-size: 20px;
+    margin: 0px 5px;
+    box-shadow: 0 0 2px;
+    padding: 6px 12px;
+    border-radius: 53px;
+    color: #b32222;
+}
+.pro_social > a:hover{
+    color: #b32222;
+    border: 1px solid #b32222;
+    text-decoration: none;
+}
+
+.pro_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro_change_pass{
+    text-decoration: none;
+    box-shadow: 0 0 2px;
+    padding: 10px 20px;
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-right: 15px;
+    margin-left: 15px;
+    transition: .4s;
+}
+.pro_btn{
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 0 2px;
+    padding: 10px 20px;
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-right: 15px;
+    margin-left: 15px;
+    transition: .4s;
+}
+.pro_change_pass:hover{
+    text-decoration: underline;
+    color: rgb(238, 44, 44);
+}
+.pro_btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.{}
